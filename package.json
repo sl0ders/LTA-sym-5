@@ -9,13 +9,16 @@
     "license": "UNLICENSED",
     "private": true,
     "scripts": {
-        "dev-server": "encore dev-server",
+        "dev-server": "encore dev-server --inline=false",
         "dev": "encore dev",
         "watch": "encore dev --watch",
         "build": "encore production --progress"
     },
     "dependencies": {
         "babel": "^6.23.0",
+        "bootstrap": "^4.5.0",
+        "jquery": "^3.5.1",
+        "popper.js": "^1.16.1",
         "react": "^16.13.1",
         "react-dom": "^16.13.1"
     }
